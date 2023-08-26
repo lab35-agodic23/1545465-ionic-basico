@@ -1,0 +1,30 @@
+section {
+    width: 50%;
+    margin: 5% auto;
+}
+
+section button {
+    margin-bottom: 2%;
+    display: block;
+    width: 100%;
+    padding: 2% 0;
+    border-radius: 10px;
+    border-color: purple;
+    color:white;
+    background-color: purple;
+}
+
+.campos div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.campos input {
+    width: 50%;
+    background-color: lightgray;
+}
+
+.output {
+    text-align: center;
+}
