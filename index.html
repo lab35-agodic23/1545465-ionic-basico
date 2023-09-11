@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+
 </head>
-<body>
-    <input type="text" placeholder="Escribe tu nombre" name="" id="mitexto1">
-    <button onclick="mostrarAlerta()" id="send">Enviar</button>
-    <button onclick="limpiarTexto()" id="clean">LIMPIAR</button>
 
+<ion-header>
+    <ion-toolbar>
+      <ion-title>Header</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-input label="Tipo Gasto"></ion-input>
+    <ion-input label="Monto"></ion-input>
+  </ion-content>
 
-    <script src="script.js"></script>
-</body>
 </html>
