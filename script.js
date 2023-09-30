@@ -1,1 +1,0 @@
-var gastos = ["Libro: $50", "Laptop: $1000"];
